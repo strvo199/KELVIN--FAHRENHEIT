@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Kelvin to Fahrenheit Scale</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="card">
+                <span class="card-title">Kelvin to Fahrenheit</span>
+                <div class="card-body">
+                    <div class="col-1">
+                        <div id="section-a" class="input-field">
+                                <input type="number" name="kelvin" placeholder="enter Kevlin temp..." class="form-control"  id="kelvin-scale">
+                                <select name="kelvin" id="" class="sel-control">
+                                    <option value="" class="kelvin-option"><a href="#" >----Kelvin----</a> </option>
+                                    <option value="" ><a href="#" class="fahrenheit-option">--Fahrenheit--</a></option>
+                                </select>                           
+                        </div>
+                    </div>
+                    <div class="col-2">
+                        <div id="section-b" class="input-field">
+                                <input type="number" name="fahrenheit" class="form-control" placeholder="enter fahrenheit temp..."  id="fahrenheit-scale">
+                                <select name="kelvin" class="sel-control" id="">
+                                    <option value="" id="fahrenheit-converted">--Fahrenheit--</option>
+                                    <option value="" id="kelvin-converted">----Kelvin----</option>
+                                </select>
+                            </div>
+                    </div>
+                    
+                </div>
+                <p class="message"></p>
+            </div>
+        </div>
+    </div>
+<script src="./js/app.js"></script>
+</body>
+</html>
